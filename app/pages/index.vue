@@ -5,6 +5,7 @@
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
+      <GitHubContributionsSection />
       <FooterSection />
     </main>
   </div>
