@@ -3,7 +3,7 @@
     <img
       src="/Dina-iyanuloluwa.png"
       alt="Iyanuloluwa Miracle"
-      class="w-14 h-14 rounded-full object-cover object-top mb-8"
+      class="w-28 h-28 rounded-2xl object-cover object-top mb-8"
     />
     <div class="mb-6">
       <a
