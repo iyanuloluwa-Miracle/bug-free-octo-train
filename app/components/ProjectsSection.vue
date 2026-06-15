@@ -1,13 +1,13 @@
 <template>
   <section id="projects" class="max-w-2xl mx-auto px-6 py-16 border-t border-[#e5e7eb] dark:border-[#1f1f1f]">
-    <h2 class="text-xs font-semibold uppercase tracking-widest text-[#6b7280] dark:text-[#9ca3af] mb-10">
+    <h2 class="text-xs font-bold uppercase tracking-widest text-[#6b7280] dark:text-[#9ca3af] mb-10">
       Projects
     </h2>
 
     <div class="space-y-12">
       <article v-for="project in projects" :key="project.name" class="group">
         <div class="flex items-start justify-between mb-2">
-          <h3 class="text-base font-semibold text-[#111111] dark:text-[#f5f5f5]">
+          <h3 class="text-base font-extrabold text-[#111111] dark:text-[#f5f5f5]">
             {{ project.name }}
           </h3>
           <a
@@ -20,7 +20,7 @@
             View →
           </a>
         </div>
-        <p class="text-sm text-[#6b7280] dark:text-[#9ca3af] mb-3">
+        <p class="text-sm font-medium text-[#6b7280] dark:text-[#9ca3af] mb-3">
           {{ project.description }}
         </p>
         <ul class="space-y-1">

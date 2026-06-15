@@ -1,16 +1,16 @@
 <template>
   <footer id="contact" class="max-w-2xl mx-auto px-6 py-16 border-t border-[#e5e7eb] dark:border-[#1f1f1f]">
-    <h2 class="text-xs font-semibold uppercase tracking-widest text-[#6b7280] dark:text-[#9ca3af] mb-8">
+    <h2 class="text-xs font-bold uppercase tracking-widest text-[#6b7280] dark:text-[#9ca3af] mb-8">
       Contact
     </h2>
 
-    <p class="text-base leading-relaxed text-[#374151] dark:text-[#d1d5db] mb-8 max-w-md">
+    <p class="text-base font-medium leading-relaxed text-[#374151] dark:text-[#d1d5db] mb-8 max-w-md">
       I'm currently open to new opportunities. Whether you have a project in mind or just want to say hello — my inbox is always open.
     </p>
 
     <a
       href="mailto:devs@bellmfb.com"
-      class="text-sm font-medium text-[#111111] dark:text-[#f5f5f5] hover:text-[#6b7280] dark:hover:text-[#9ca3af] transition-colors underline underline-offset-4"
+      class="text-sm font-semibold text-[#111111] dark:text-[#f5f5f5] hover:text-[#6b7280] dark:hover:text-[#9ca3af] transition-colors underline underline-offset-4"
     >
       devs@bellmfb.com
     </a>

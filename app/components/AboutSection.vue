@@ -1,10 +1,10 @@
 <template>
   <section id="about" class="max-w-2xl mx-auto px-6 py-16 border-t border-[#e5e7eb] dark:border-[#1f1f1f]">
-    <h2 class="text-xs font-semibold uppercase tracking-widest text-[#6b7280] dark:text-[#9ca3af] mb-8">
+    <h2 class="text-xs font-bold uppercase tracking-widest text-[#6b7280] dark:text-[#9ca3af] mb-8">
       About
     </h2>
 
-    <div class="space-y-4 text-base leading-relaxed text-[#374151] dark:text-[#d1d5db]">
+    <div class="space-y-4 text-base font-medium leading-relaxed text-[#374151] dark:text-[#d1d5db]">
       <p>
         I'm a fullstack web engineer based in Nigeria, focused on building products that are both
         functional and delightful to use. My work spans frontend interfaces, backend APIs, and
