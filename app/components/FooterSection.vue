@@ -24,7 +24,7 @@
       >
         GitHub
       </a>
-      <span class="text-[#e5e7eb] dark:text-[#1f1f1f]">·</span>
+      <span class="text-[#d1d5db] dark:text-[#374151]">·</span>
       <a
         href="#"
         target="_blank"
@@ -33,7 +33,7 @@
       >
         LinkedIn
       </a>
-      <span class="text-[#e5e7eb] dark:text-[#1f1f1f]">·</span>
+      <span class="text-[#d1d5db] dark:text-[#374151]">·</span>
       <a
         href="#"
         target="_blank"

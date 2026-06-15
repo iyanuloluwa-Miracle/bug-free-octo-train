@@ -4,7 +4,7 @@
     aria-label="Toggle theme"
     class="w-8 h-8 flex items-center justify-center rounded-md text-[#6b7280] dark:text-[#9ca3af] hover:text-[#111111] dark:hover:text-[#f5f5f5] transition-colors"
   >
-    <svg v-if="colorMode.value === 'dark'" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <svg v-if="isDark" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <circle cx="12" cy="12" r="5"/>
       <line x1="12" y1="1" x2="12" y2="3"/>
       <line x1="12" y1="21" x2="12" y2="23"/>
@@ -23,8 +23,9 @@
 
 <script setup lang="ts">
 const colorMode = useColorMode()
+const isDark = computed(() => colorMode.value === 'dark')
 
 function toggleTheme() {
-  colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
+  colorMode.preference = isDark.value ? 'light' : 'dark'
 }
 </script>
