@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-2xl mx-auto px-6 pt-20 pb-16">
     <img
-      src="/portfolio-image.jpeg"
+      src="/Dina-iyanuloluwa.png"
       alt="Iyanuloluwa Miracle"
       class="w-14 h-14 rounded-full object-cover object-top mb-8"
     />
