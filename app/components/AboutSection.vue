@@ -6,18 +6,20 @@
 
     <div class="space-y-4 text-base font-medium leading-relaxed text-[#374151] dark:text-[#d1d5db]">
       <p>
-        I'm a fullstack web engineer based in Nigeria, focused on building products that are both
-        functional and delightful to use. My work spans frontend interfaces, backend APIs, and
-        everything in between.
+        I'm a fullstack engineer based in Nigeria with a habit of shipping. My work spans Vue/Nuxt
+        frontends, Node.js backends, and third-party integrations — I've taken multiple projects
+        from idea to production, reaching real users at scale across different domains.
       </p>
       <p>
-        While web development is my primary focus, I have a broader interest in the app development
-        landscape — from mobile experiences to CLI tools. I enjoy building developer tools in
-        particular; there's something uniquely satisfying about improving other engineers' workflows.
+        I'm particularly drawn to AI integrations and developer tooling — the kind of software that
+        makes other people's work meaningfully faster. I've built LLM-powered content pipelines,
+        multi-platform media ingestion systems, and tools that hide real complexity behind clean
+        interfaces. Whatever the problem, I'll find the path through the stack to solve it.
       </p>
       <p>
-        When I'm not shipping code, I'm exploring AI/ML integrations and thinking about how
-        intelligent systems can be woven into everyday software in practical, useful ways.
+        When I'm not in code, I'm thinking about where intelligent systems are heading and how to
+        bring that into practical, everyday software. The projects below are a direct snapshot of
+        what that looks like in practice.
       </p>
     </div>
   </section>

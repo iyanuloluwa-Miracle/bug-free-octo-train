@@ -23,9 +23,11 @@
     </p>
 
     <p class="text-base font-medium leading-relaxed text-[#374151] dark:text-[#d1d5db]">
-      Hi there, I'm Iyanu. I'm a fullstack software engineer interested in building smooth and
-      seamless web experiences. I care deeply about clean interfaces and developer tooling — there's
-      something satisfying about making everyone's workflow a little better.
+      Hi, I'm Iyanu — a fullstack software engineer who ships products people actually use. I've
+      built AI-powered SaaS tools, community platforms, and developer utilities that collectively
+      serve tens of thousands of users. I care about the full stack: the interface that feels
+      effortless, the API that doesn't break under pressure, and the invisible plumbing that holds
+      it all together.
     </p>
   </section>
 </template>

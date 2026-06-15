@@ -1,6 +1,6 @@
 <template>
   <section id="projects" class="max-w-2xl mx-auto px-6 py-16 border-t border-[#e5e7eb] dark:border-[#1f1f1f]">
-    <h2 class="text-xs font-bold uppercase tracking-widest text-[#6b7280] dark:text-[#9ca3af] mb-10">
+    <h2 class="text-xs font-black uppercase tracking-widest text-[#6b7280] dark:text-[#9ca3af] mb-10">
       Projects
     </h2>
 
@@ -15,19 +15,19 @@
             :href="project.link"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-xs text-[#6b7280] dark:text-[#9ca3af] hover:text-[#111111] dark:hover:text-[#f5f5f5] transition-colors shrink-0 ml-4 mt-0.5"
+            class="text-xs font-bold text-[#6b7280] dark:text-[#9ca3af] hover:text-[#111111] dark:hover:text-[#f5f5f5] transition-colors shrink-0 ml-4 mt-0.5"
           >
             View →
           </a>
         </div>
-        <p class="text-sm font-medium text-[#6b7280] dark:text-[#9ca3af] mb-3">
+        <p class="text-sm font-semibold text-[#6b7280] dark:text-[#9ca3af] mb-3">
           {{ project.description }}
         </p>
         <ul class="space-y-1">
           <li
             v-for="feature in project.features"
             :key="feature"
-            class="text-sm text-[#374151] dark:text-[#d1d5db] flex gap-2"
+            class="text-sm font-semibold text-[#374151] dark:text-[#d1d5db] flex gap-2"
           >
             <span class="text-[#9ca3af] shrink-0">—</span>
             {{ feature }}
